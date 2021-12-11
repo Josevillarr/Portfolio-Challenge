@@ -1,5 +1,8 @@
 * {
     margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
 }    
 body {
     background-color: silver;
@@ -7,20 +10,71 @@ body {
 
 .gears-image {
     height: 900px;
-    background-image: url("https://image.shutterstock.com/image-vector/cogs-gear-wheel-mechanisms-hitech-600w-1505314301.jpg");
-    background-size: cover;
+    background-image: url("../images/AdobeStock_35560860.jpeg");
+    background-size: center;
     background-position: center;
-    margin-bottom: 0;
     width: 100%;
 }
 
+.flex-one {
+
+}
+
 .header {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-end;
+   align-items: center;
+   height: 150px;
+   background-color: skyblue;
+   box-shadow: 0px 10px 50px rgb(7, 71, 145);
+   margin: 10px;
+}
+
+.myname {
+    margin-right: auto;
+    margin-left: 200px;
+    font-size: 60px;
+    color: navy;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.myname span {
     
+}
+
+.nav-position {
+   display: flex;
+}
+
+.nav-link {
+    list-style: none;
+    margin-right: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+
+}
+
+.portrait {
+
+    
+}
+
+.portrait-card {
+      max-width: 20%;
+      padding: 3px;
+}
+
+.text-block {
+    display: flex;
+    align-items: center;
 }
 
 .dynamic-hover {
     
 }
+
 .contact-me {
     
 }
